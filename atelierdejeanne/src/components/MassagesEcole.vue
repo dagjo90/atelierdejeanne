@@ -1,8 +1,8 @@
 <template>
 <div class="containerGeneral">
-  <!--<div class="pt-3 text-center">
-    <router-link to="/soins" class="btn btn-info btn-lg ">Retour aux soins</router-link>
-  </div>-->
+      <div class="logoContainer">
+      <b-img :src="require('../assets/img/logo-green.png')" fluid thumbnail width="300" center rounded="circle" alt="L’atelier de Jeanne te propose des massages personnalisés sur Liège. Massage énergétique pour tous. Massage prénatal, accompagnement à la naissance, massage bébé, Yoga prénatal, ateliers toucher-bouger en famille, ateliers cosmétiques chaque mois ! L’atelier de Jeanne intervient également à l’école pour des animations massage et toucher bienveillant."></b-img>
+      </div>
 
     <h1>Massages à l'école</h1>
     <h2>Pour qui ?</h2>
@@ -58,4 +58,16 @@
 <script>
 export default {
   name: 'MassagesEcole',
+              metaInfo() {
+        return { 
+            title: "Massages à l'école | L’atelier de Jeanne",
+            meta: [
+                { name: 'description', content:  'L’atelier de Jeanne propose des ateliers massages pour toutes les classes de la deuxième maternelle à la sixième primaire en Province de Liège'},
+                { property: 'og:title', content: "Massages à l'école | L’atelier de Jeanne"},
+                { property: 'og:site_name', content: 'atelier de Jeanne'},
+                {property: 'og:type', content: 'website'},    
+                {name: 'robots', content: 'index,follow'} 
+            ]
+        }
+    }
 }

@@ -17,7 +17,7 @@ import OuMeTrouver from '../components/OuMeTrouver.vue'
 import Tarifs from '../components/Tarifs.vue'
 import Reservation from '../components/Reservation.vue'
 import Contact from '../components/Contact.vue'
-
+import NotFound from '../components/NotFound.vue'
 
 
 
@@ -95,9 +95,9 @@ Vue.use(VueRouter)
     component: AteliersCosmetiques
   },
   {
-    path: '*',
+    path: '',
     name: 'not-found',
-    component: Accueil
+    component: NotFound
   },
 ]
 

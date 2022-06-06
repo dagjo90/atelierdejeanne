@@ -13,6 +13,11 @@ h2 {
 p, div, ul, li, a {
     font-family: "Montserrat";
     font-weight: 400;
+    
+}
+
+p {
+    text-align: justify;
 }
 .header{
     width: 100%;
@@ -55,6 +60,11 @@ margin-top: 25px;
 
 .nav-link:hover, .nav-link:focus {
     color:rgba(120,237,174) !important;
+}
+
+.alertOpening {
+    background-color:#5CDAAF!important;
+    color:white;
 }
 
 .menuButton {

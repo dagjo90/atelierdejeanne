@@ -6,7 +6,7 @@
       
       <div class="px-3 py-2 mx-3">
         <b-navbar-brand :to="'/'">
-          <b-img :src="require('../assets/img/logo-green.png')" fluid thumbnail width="300" center rounded="circle" alt="L'atelier de Jeanne massages liège"></b-img>
+          <b-img :src="require('../assets/img/logo-green.png')" fluid thumbnail width="300" center rounded="circle" alt="L’atelier de Jeanne te propose des massages personnalisés sur Liège. Massage énergétique pour tous. Massage prénatal, accompagnement à la naissance, massage bébé, Yoga prénatal, ateliers toucher-bouger en famille, ateliers cosmétiques chaque mois ! L’atelier de Jeanne intervient également à l’école pour des animations massage et toucher bienveillant."></b-img>
         </b-navbar-brand>
           <b-navbar-nav>
             <b-nav-item :to="'/'" >Accueil</b-nav-item>

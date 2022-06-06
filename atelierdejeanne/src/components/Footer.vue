@@ -5,17 +5,17 @@
                 <!-- Section: Social media -->
                 <section class="mb-4">
                 <!-- Facebook -->
-                    <a class="btn btn-outline-light btn-floating m-3" href="#!" role="button"
+                    <a class="btn btn-outline-light btn-floating m-3" href="https://www.facebook.com/Latelier-de-Jeanne-101933898761632" target="_blank" role="button"
                         ><i class="fab fa-facebook-f"></i
                     ></a>
 
-                    <!-- Google -->
+                    <!-- Google 
                     <a class="btn btn-outline-light btn-floating m-3" href="#!" role="button"
                         ><i class="fab fa-google"></i
-                    ></a>
+                    ></a>-->
 
                     <!-- Instagram -->
-                    <a class="btn btn-outline-light btn-floating m-3" href="#!" role="button"
+                    <a class="btn btn-outline-light btn-floating m-3" href="https://www.instagram.com/alatelierdejeanne/" target="_blank" role="button"
                         ><i class="fab fa-instagram"></i
                     ></a>
 

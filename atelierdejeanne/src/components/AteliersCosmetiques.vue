@@ -1,8 +1,8 @@
 <template>
 <div class="containerGeneral">
-  <!--<div class="pt-3 text-center">
-    <router-link to="/soins" class="btn btn-info btn-lg ">Retour aux soins</router-link>
-  </div>-->
+        <div class="logoContainer">
+      <b-img :src="require('../assets/img/logo-green.png')" fluid thumbnail width="300" center rounded="circle" alt="L’atelier de Jeanne te propose des massages personnalisés sur Liège. Massage énergétique pour tous. Massage prénatal, accompagnement à la naissance, massage bébé, Yoga prénatal, ateliers toucher-bouger en famille, ateliers cosmétiques chaque mois ! L’atelier de Jeanne intervient également à l’école pour des animations massage et toucher bienveillant."></b-img>
+      </div>
 
   <h1>Ateliers cosmétiques</h1>
   <h2>Pour qui ?</h2>
@@ -16,8 +16,8 @@
     facilement les recettes à la maison.<br>
     Pendant les rencontres, on prend le temps de grignoter local et de déguster un
     verre de vin naturel ou de limonade maison !<br>
-    L’agenda des ateliers est disponible sur notre <strong>page facebook</strong> ou sur simple
-    demande via le <strong>formulaire de contact</strong>.
+    L’agenda des ateliers est disponible sur notre <a href="https://www.facebook.com/Latelier-de-Jeanne-101933898761632" target="_blank">page facebook</a> ou sur simple
+    demande via le <router-link :to="'contact'">formulaire de contact</router-link>.
     <br><br>
     Tu peux décider de venir à un atelier pour découvrir le concept et apprendre un
     sujet en particulier, ou alors, profiter de plusieurs rencontres à prix attractif pour
@@ -43,8 +43,8 @@
     en fonction de tes valeurs !
   </p>
   <h2>Tarifs</h2>
-  <p>25 € par personne, cosmétique et grignotage compris !<br>
-    80 € pour une carte de 5 places. Tu peux partager la carte avec ta fille, ton frère
+  <p>30 € par personne, cosmétique et grignotage compris !<br>
+    125 € pour une carte de 5 places. Tu peux partager la carte avec ta fille, ton frère
     ton/ta BFF ou même ta belle-mère (si elle est sympa) au cours d’une même
     soirée… Bref, ramène du monde!
   </p>
@@ -55,4 +55,16 @@
 <script>
 export default {
   name: 'AteliersCosmetiques',
+      metaInfo() {
+        return { 
+            title: "Ateliers Cosmétiques | Atelier de Jeanne",
+            meta: [
+                { name: 'description', content:  'L’atelier de Jeanne proposes des ateliers cosmétiques sur liège. Apprends la cosmétique naturelle, repars avec tes créations ! Tu peux y acheter en vrac les matières premières nécessaires pour reproduire facilement les recettes.'},
+                { property: 'og:title', content: "Ateliers Cosmétiques | Atelier de Jeanne"},
+                { property: 'og:site_name', content: 'atelier de Jeanne'},
+                {property: 'og:type', content: 'website'},    
+                {name: 'robots', content: 'index,follow'} 
+            ]
+        }
+    }
 }
